@@ -1,6 +1,6 @@
 :root {
   --color1: #56d5ff;
-  --color2: #ffffff;
+  --color2: #35bcff;
   --bg: #b4ffb4;
   --primery: #0396c7;
   --primary-green: #065f46;
@@ -21,7 +21,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--bg-soft);
+  background-color: #4ebeff;
   color: var(--text-dark);
   min-height: 3000px;
 }
@@ -97,7 +97,7 @@ body {
   background-image: url("../img/bg-page.png");
   background-repeat: no-repeat;
   position: relative;
-  background-position: -10% center;
+  background-position: 0% center;
   background-size: cover;
 }
 
@@ -110,8 +110,8 @@ body {
   bottom: 0;
   background: linear-gradient(
     0deg,
-    rgb(251, 252, 251) 8%,
-    rgba(179, 254, 178, 0) 100%
+    rgb(78, 190, 255) 8%,
+    rgba(78, 190, 255, 0) 100%
   );
 }
 
@@ -151,7 +151,7 @@ body {
 }
 
 .about {
-  color: #1a3a1a;
+  color: #fff;
   text-align: center;
   font-size: 1.5rem;
   padding: 6rem 2rem 7%;
@@ -160,11 +160,12 @@ body {
 .about p {
   text-align: justify;
   font-size: 1.3rem;
-  color: #2d5a2d;
-  max-width: 1000px;
+  color: #fff;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 1.5rem 3rem;
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -175,10 +176,9 @@ body {
 
 .card {
   width: 250px;
-  background-color: #ffffff;
+  background-color: #4ebeffbd;
   border-radius: 1.6rem;
-  border: 1px solid #e5e7eb;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  box-shadow: -50px -10px 2px rgba(0, 0, 0, 5%);
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out,
